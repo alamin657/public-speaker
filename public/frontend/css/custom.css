@@ -1,0 +1,198 @@
+* {
+    outline: 0;
+
+}
+
+/* Navabar Section */
+#anchor_tag {
+    text-decoration: none;
+    color: white;
+}
+
+#anchor_tag:hover {
+    color: blue;
+}
+
+
+
+/*  Button */
+.btn {
+    border-radius: 6.25rem;
+    border-width: 0.125rem;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgba(0, 0, 0, .15);
+    font-weight: 600;
+    font-size: .9375rem;
+    padding: 0.5rem 1.25rem;
+    position: relative;
+    outline: none !important;
+}
+
+.btn-primary {
+    background-color: #f4b200;
+    border-color: #f4b200;
+    color: #fff;
+}
+
+.mr-3,
+.mx-3 {
+    margin-right: 1rem !important;
+}
+
+.mb-2,
+.my-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+/* Latest course */
+.course-img {
+    width: 100%;
+}
+
+#latest-courses {
+    margin-top: 100px;
+}
+
+
+/* Contact Section */
+/* #contact {
+    margin-top: 100px;
+} */
+
+/* Numbers section  */
+#numbers {
+    background-color: gray;
+}
+
+
+/* about page start */
+.darkcyan {
+    /* background: #00bdbd; */
+    color: #fff;
+    position: relative;
+}
+
+
+
+
+section .container {
+    padding-top: 85px;
+    padding-bottom: 93px;
+}
+
+.sfmsb-follow-social-buttons.sfmsb-float .sfmsb-text,
+.sfmsb-follow-social-buttons.sfmsb-float a {
+    padding: 0 5px 0 5px;
+    margin-right: 0;
+}
+
+.sfmsb-follow-social-buttons a,
+.sfmsb-follow-social-buttons a:hover {
+    text-decoration: none !important;
+}
+
+.sfmsb-follow-social-buttons a,
+.sfmsb-follow-social-buttons .sfmsb-text {
+    display: block;
+    float: left;
+    margin-bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: #f25252;
+    outline: none;
+}
+
+img.bio-img {
+    border-radius: 50%;
+    /* -moz-border-radius: 50%;
+    -webkit-border-radius: 50%; */
+    border: 2px solid #fff;
+    margin: 8px auto;
+    display: table;
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#about_img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10px;
+}
+
+@media (min-width: 992px) {
+    #about_img {
+        margin-left: 100px;
+    }
+}
+
+/* about page end */
+
+/* education part start */
+
+section .container {
+    padding-top: 85px;
+    padding-bottom: 93px;
+}
+
+.column_first.column_last {
+    padding: 0px;
+}
+
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.heading-red,
+.heading-white {
+    text-align: center;
+    padding-bottom: 45px;
+}
+
+.heading-red .title {
+    color: #0088CC;
+
+}
+
+
+
+
+.workYear {
+    font-size: 17px;
+    color: #fff;
+    background: #0088CC;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    padding: 40px 0 40px 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .smoke .workYear {
+        padding-top: 58px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .workYear {
+        width: 140px;
+        height: 140px;
+        padding-top: 50px;
+    }
+}
+
+/* education part end */
+
+/* footer part start */
+
+
+/* footer part end */
